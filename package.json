@@ -1,0 +1,22 @@
+{
+  "name": "jsh-101",
+  "version": "0.1.0",
+  "description": "javascript monophonic synthesizer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordangignac/jsh-101"
+  },
+  "scripts": {
+    "start": "parcel static/index.html",
+    "build": "parcel build static/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  }
+}
